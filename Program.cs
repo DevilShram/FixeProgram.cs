@@ -33,7 +33,7 @@
 //     Console.WriteLine($"{a} является чётным ");
 //  else
 //     Console.WriteLine($"{a} не является чётным ");
- 
+
 //  Задача №8
 
 //  Console.Write("Введите число: ");
@@ -45,3 +45,58 @@
 //      Console.Write(i + " ");
 //      i = i + 2;
 // }
+
+// Задача №10
+
+// Console.WriteLine("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int n3 = n % 100;
+// int i = n3 / 10;
+// Console.WriteLine(i);
+
+// Задача № 13
+
+// Console.WriteLine("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// while (n > 999)
+// {
+// n /= 10;
+// }
+// if (n < 100)
+// {
+//    n = 10;
+//    Console.Write("Число не трёхзначное");
+// }   
+// else
+// {
+//    Console.Write(n % 10);
+// }
+
+ 
+
+
+
+
+ 
+
+
+
+// Задача №15
+// Console.Write("Введите число: ");
+// int day = Convert.ToInt32(Console.ReadLine());
+
+//  if (day == 1)
+//    Console.WriteLine("Будни");
+//  else if (day == 2)
+//      Console.WriteLine("Будни");
+//  else if (day == 3)
+//      Console.WriteLine("Будни");
+//  else if (day == 4)
+//      Console.WriteLine("Будни");
+//  else if (day == 5)
+//      Console.WriteLine("Будни");
+//  else if (day == 6)
+//      Console.WriteLine("Выходной");
+//  else if (day == 7)
+//      Console.WriteLine("Выходной");
