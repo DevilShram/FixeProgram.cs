@@ -73,15 +73,6 @@
 //    Console.Write(n % 10);
 // }
 
- 
-
-
-
-
- 
-
-
-
 // Задача №15
 // Console.Write("Введите число: ");
 // int day = Convert.ToInt32(Console.ReadLine());
@@ -100,3 +91,43 @@
 //      Console.WriteLine("Выходной");
 //  else if (day == 7)
 //      Console.WriteLine("Выходной");
+
+// Задача №25
+// Console.Write("Введите число: ");
+// int n1 =Convert.ToInt32(Console.ReadLine();)
+// Console.Write("Введите число: ");
+// int n2 = Convert.ToInt32(Console.ReadLine());
+// void f(int n, ref int res)
+// {
+    
+//     for (int i = 1; i <= n; i ++)
+//         res *= i;
+    
+// }
+// Console.WriteLine()
+
+// Задача №27
+
+// int f(int n)
+// {
+//     int count = 0;
+//     while (n > 0)
+//     {
+//         count += n % 10;
+//         n = n / 10;
+//     }
+//     return count;
+// }
+
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(f(n));
+
+// Задача №29
+// int m(int n)
+// {
+//     for (int f = 0; n < n - 1;n ++);
+// }
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(f(n));
