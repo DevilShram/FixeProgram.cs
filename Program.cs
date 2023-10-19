@@ -179,3 +179,42 @@
 
 // Console.Write($"Точка пересечения двух прямых: [{x},{y}]");
 
+// Задача №64
+
+// Console.Write("Введите число N: "); 
+// int n = Convert.ToInt32(Console.ReadLine()); 
+
+// for (int i = n; i >= 1; i--) 
+// { 
+// Console.Write(i + " "); 
+// } 
+
+// Задача №66
+
+// Console.Write("Введите значение M: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите значение N: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int sum(int m, int n)
+// {
+// if (m==n)
+// return n;
+// else return m + sum(m + 1, n);
+// }
+// Console.Write($"Сумма равна {sum(m,n)}");
+
+// Задача №68
+
+// Console.Write("Введите значение M: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите значение N: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// int A(int m, int n)
+// {
+// if (m == 0) return n + 1;
+// else if (n == 0) return A(m - 1, 1);
+// else return A(m - 1, A(m, n - 1));
+// }
+
+// Console.Write($"Функция Аккермана равна {A(m, n)} ");
